@@ -3,48 +3,135 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -52,15 +139,156 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+* {
+    margin: 40px;
+
+}
+
+.mid-container {
+    top: 0;
+}
+
+.top-container {
+    margin: 70px;
+}
+
+.top-container .nav a {
+    padding: 30px;
+    margin: 35px;
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+
+.Iod {
+    display: inline-block;
+    text-align: center;
+    font-size: 100px;
+    margin-left: 150px;
+	margin-bottom: 250px;
+	height: 75px;
+	width: 150px;
+}
+
+.Iod .button {
+    margin-top: 0;
+    border: 1 px solid gray;
+    margin-left: 5px;
+    border-radius: 2px;
+    width: 170px;
+    height: 70px;
+    font-size: 20px;
+
+}
+
+.great .logo {
+    display: inline-block;
+    position: absolute;
+    left: 80%;
+    top: 0;
+    margin: 10px;
+}
+
+.top-image {
+    display: inline-block;
+    margin-left: 450px;
+    height: 25%;
+    margin-top: 300px;
+
+
+}
+
+.content {
+    height: 300px;
+
+}
+
+.About {
+    display: inline-block;
+    width: 45%;
+    margin: 10px 20px;
+
+    font-size: 35px;
+    height: 250px;
+}
+
+.Features {
+    display: inline-block;
+    width: 45%;
+    margin: 10px 20px;
+
+    font-size: 35px;
+    height: 250px;
+}
+
+.Services {
+    display: inline-block;
+    width: 30%;
+    margin: 10px 20px;
+
+    font-size: 25px;
+}
+
+.Product {
+    display: inline-block;
+    width: 31%;
+    margin: 10px 20px;
+
+    font-size: 25px;
+}
+
+.Vision {
+    display: inline-block;
+    margin-left: 600px;
+    width: 32%;
+    margin: 10px 20px;
+
+    font-size: 25px;
+
+}
+
+.middle-img {
+    width: 100%;
+    margin: 15px;
+    padding: 25px;
+
+}
+
+.bottom-content {
+    display: inline-block;
+
+}
+
+address {
+    text-align: justify;
+    padding: 25px;
+    font-size: 30px;
+}
+
+.cc {
+    text-align: center;
+    padding: 25px;
+    font-size: 15px;
+}
+
+.contact {
+    padding: 30px;
+    font-size: 25px
+}
